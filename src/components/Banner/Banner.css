@@ -1,6 +1,13 @@
 .banner-wrapper {
     width: 100%;
-    height: 90vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentWrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +42,7 @@
 
 
 @media screen and (max-width:585px) {
-    .banner-wrapper {
+    .contentWrapper {
         flex-direction: column;
         justify-content: center;
         gap: 48px;
@@ -64,7 +71,7 @@
 }
 
 @media screen and (min-width:585px) and (max-width: 785px) {
-    .banner-wrapper {
+    .contentWrapper {
         flex-direction: column;
         justify-content: center;
         gap: 48px;

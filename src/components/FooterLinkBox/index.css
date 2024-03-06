@@ -1,0 +1,37 @@
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    color: #272D38;
+
+}
+
+.linkBox h1 {
+    color: #272D38;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+.footerRoutes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.footerRoutes a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #272D38;
+    text-transform: capitalize;
+}
+
+.footerRoutes a:hover {
+    text-decoration: underline;
+}

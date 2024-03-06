@@ -5,7 +5,7 @@ import { navLinks } from "@/utils/mockData/NavLinks";
 const Navbar = () => {
     const links = navLinks()
     return (
-        <nav>
+        <nav className="deskNav">
             <div className="logo">
                 <Link href={"/"}>Digital Agency</Link>
             </div>
