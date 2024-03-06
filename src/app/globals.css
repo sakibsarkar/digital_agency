@@ -29,6 +29,15 @@ body {
     overflow: hidden;
 }
 
+.scroll {
+    background: white;
+    position: fixed;
+    transition: 0.3s;
+    z-index: 999;
+    box-shadow: 0 2px 16.8px 3.2px #95959578;
+
+}
+
 .rootWrapper {
     width: 1065px;
     margin: 0 auto;

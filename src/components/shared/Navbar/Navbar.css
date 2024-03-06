@@ -1,3 +1,11 @@
+.navWrapp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
 .deskNav {
     width: 1065px;
     display: flex;
