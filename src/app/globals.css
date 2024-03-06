@@ -13,3 +13,27 @@
 .txtPrimary {
     color: #272D38;
 }
+
+.btn-primary {
+    padding: 10px 31px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* layout */
+@media screen and (max-width: 1040px) {
+    .rootWrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1040px) and (max-width: 1460px) {
+    .rootWrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
