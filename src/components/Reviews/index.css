@@ -49,3 +49,9 @@
 .reviewBox p {
     margin: 19px 0 0 0;
 }
+
+@media screen and (max-width: 500px) {
+    .reviewWrapper h1 {
+        font-size: 40px;
+    }
+}
