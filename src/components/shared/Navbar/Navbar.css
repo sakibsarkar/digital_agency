@@ -1,9 +1,10 @@
-nav {
-    width: 100%;
+.deskNav {
+    width: 1065px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 45px 0;
+    margin: 0 auto;
 }
 
 .logo a {
@@ -13,14 +14,14 @@ nav {
     text-transform: uppercase;
 }
 
-nav ul {
+.deskNav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 44px;
 }
 
-nav ul li {
+.deskNav ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,8 +29,15 @@ nav ul li {
 }
 
 
-@media screen and  (max-width: 660pxpx) {
-    
+@media screen and (max-width: 660px) {
+    .deskNav {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 1921px) {}
+@media screen and (min-width:660px) and (max-width:1050px) {
+    .deskNav {
+        width: 90vw;
+
+    }
+}

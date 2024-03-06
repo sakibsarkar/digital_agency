@@ -5,11 +5,11 @@ import Navbar from "@/components/shared/Navbar/Navbar";
 const RootLayout = ({ children }) => {
     return (
         <>
+            <Navbar />
             <div className="rootWrapper">
                 <div className="top-aura">
                     <Circle />
                 </div>
-                <Navbar />
                 {children}
             </div>
             <Footer />

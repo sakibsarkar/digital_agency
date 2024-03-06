@@ -5,9 +5,10 @@
     list-style: none;
 }
 
+html,
 body {
     overflow-x: hidden;
-    width: 100vw;
+    position: relative;
 }
 
 .top-aura {
@@ -16,6 +17,7 @@ body {
     left: 0;
     width: 679px;
     height: 679px;
+    z-index: -3;
     overflow: hidden;
 }
 
