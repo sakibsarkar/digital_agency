@@ -1,7 +1,7 @@
 import "./Home.css";
 import Banner from "@/components/Banner/Banner";
-import Circle from "@/components/circle-gradient";
 import FlexContent from "@/components/flex-Add";
+import Reviews from "@/components/Reviews";
 import TrustedCompanys from "@/components/TustedCompany";
 import img1 from "../../../public/images/designer-team-working-on-creative-design.png";
 import img2 from "../../../public/images/businessman-analyzing-data.png";
@@ -39,6 +39,8 @@ const Home = () => {
                 <FlexContent heading={heading1} content={content1} img={img1} />
                 <FlexContent heading={heading2} content={content2} img={img2} direction={"row-reverse"} />
             </div>
+
+            <Reviews />
 
         </div>
     );
