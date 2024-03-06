@@ -2,6 +2,7 @@ import "./Home.css";
 import Banner from "@/components/Banner/Banner";
 import FlexContent from "@/components/flex-Add";
 import Reviews from "@/components/Reviews";
+import Support from "@/components/Support";
 import TrustedCompanys from "@/components/TustedCompany";
 import img1 from "../../../public/images/designer-team-working-on-creative-design.png";
 import img2 from "../../../public/images/businessman-analyzing-data.png";
@@ -18,9 +19,7 @@ const Home = () => {
         <div>
             <Banner />
             <TrustedCompanys />
-
             <div className="heros">
-
                 <div className="aura-gradient">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 547 1291" fill="none">
                         <g filter="url(#filter0_f_55_12)">
@@ -41,6 +40,8 @@ const Home = () => {
             </div>
 
             <Reviews />
+
+            <Support />
 
         </div>
     );

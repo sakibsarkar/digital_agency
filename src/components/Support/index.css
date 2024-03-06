@@ -1,0 +1,112 @@
+.supportBox {
+    width: 1065px;
+    height: 450.434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    border-radius: 20px;
+    background: #F6F6F6;
+    margin: 0 0 138px 0;
+}
+
+.supportContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 17px;
+    width: fit-content;
+    color: #272D38;
+}
+
+.supportContent h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 361px;
+}
+
+.supportContent p {
+    font-size: 16px;
+    line-height: 27.5px;
+    width: 304px;
+}
+
+.supportContent button {
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px) {
+    .supportBox {
+        width: 100%;
+        gap: 30px;
+        height: fit-content;
+        padding: 56px 35px;
+        box-sizing: border-box;
+    }
+
+    .supportBox img {
+        display: none;
+    }
+
+
+
+    .supportContent {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .supportContent h1 {
+        font-size: 30px;
+        width: 223px;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 884px) {
+
+    .supportBox {
+        width: 100%;
+        gap: 30px;
+
+    }
+
+    .supportBox img {
+        width: 250px;
+        height: 250px;
+    }
+
+
+
+    .supportContent h1 {
+        font-size: 30px;
+        width: 223px;
+    }
+}
+
+@media screen and (min-width: 848px) and (max-width: 1122px) {
+    .supportBox {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .supportBox img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .supportContent h1 {
+        font-size: 30px;
+        width: 223px;
+    }
+
+}
+
+@media screen and (min-width: 1921px) {}
