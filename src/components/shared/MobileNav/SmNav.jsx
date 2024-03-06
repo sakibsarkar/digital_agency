@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
 import { TiThMenu } from "react-icons/ti";
+import { Menu } from "@/utils/icons/Menu";
 import { navLinks } from "@/utils/mockData/NavLinks";
 
 const SmNav = () => {
@@ -12,7 +13,10 @@ const SmNav = () => {
 
     return (
         <nav className="navSm">
-            <button onClick={() => setshow(true)}><TiThMenu /></button>
+            <div className="logo">
+                <Link href={"/"}>Digital Agency</Link>
+            </div>
+            <button onClick={() => setshow(true)}><Menu /></button>
             {
                 show ?
                     <div className="magic">
