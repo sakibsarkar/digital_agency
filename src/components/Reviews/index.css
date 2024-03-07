@@ -48,6 +48,8 @@
 
 .reviewBox p {
     margin: 19px 0 0 0;
+    font-size: 14px;
+    width: 281px;
 }
 
 @media screen and (max-width: 500px) {
