@@ -41,16 +41,33 @@ footer {
 
 footer>p {
     margin: 0 0 15px 0;
+    text-align: center;
 }
 
 
 @media screen and (max-width: 600px) {
     .fooWrapper {
         grid-template-columns: repeat(1, 190px);
+        gap: 70px 0;
     }
 
     footer {
         min-height: 1140px;
+    }
+
+    .fooLogo {
+        align-items: center;
+        text-align: center;
+    }
+
+    .linkBox {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .footerRoutes {
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
 

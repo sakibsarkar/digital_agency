@@ -1,5 +1,5 @@
 import Circle from "@/components/circle-gradient";
-import Footer from "@/components/shared/Navbar/Footer/Footer";
+import Footer from "@/components/shared/Footer/Footer";
 import Navbar from "@/components/shared/Navbar/Navbar";
 
 const RootLayout = ({ children }) => {
