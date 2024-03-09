@@ -12,28 +12,28 @@ const SmNav = () => {
     const links = navLinks()
 
     return (
-        <nav className="navSm">
-            <div className="logo">
-                <Link href={"/"}>Digital Agency</Link>
-            </div>
-            <button onClick={() => setshow(true)}><Menu /></button>
-            {
-                show ?
-                    <div className="magic">
-                        <button onClick={() => setshow(false)}><RxCross2 /></button>
+            <nav className="navSm">
+                <div className="logo">
+                    <Link href={"/"}>Digital Agency</Link>
+                </div>
+                <button onClick={() => setshow(true)}><Menu /></button>
+                {
+                    show ?
+                        <div className="magic">
+                            <button onClick={() => setshow(false)}><RxCross2 /></button>
 
-                        {
-                            links?.map((link, i) => <Link key={i + "sm"}
-                                href={link.text} className="txtPrimary">
-                                {link.text}
-                            </Link>
-                            )
-                        }
-                    </div>
-                    :
-                    ""
-            }
-        </nav>
+                            {
+                                links?.map((link, i) => <Link key={i + "sm"}
+                                    href={link.text} className="txtPrimary">
+                                    {link.text}
+                                </Link>
+                                )
+                            }
+                        </div>
+                        :
+                        ""
+                }
+            </nav>
     );
 };
 

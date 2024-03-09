@@ -33,7 +33,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={scrolled ? "scroll navWrapp" : ""}>
+            <header className={scrolled ? "scroll navWrapp" : ""}>
                 <nav className={'deskNav'}>
                     <div className="logo">
                         <Link href={"/"}>Digital Agency</Link>
@@ -49,9 +49,9 @@ const Navbar = () => {
                     </ul>
 
                 </nav>
-            </div>
+                <SmNav />
+            </header>
 
-            <SmNav />
         </>
 
     );

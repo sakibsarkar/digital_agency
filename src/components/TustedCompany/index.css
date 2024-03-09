@@ -6,7 +6,7 @@
     gap: 16px;
     margin: 50px 0;
     width: 100%;
-    margin: 120px 0 112px 0;
+    margin: 157px 0 0 0;
 }
 
 .trust-holder>p {
@@ -17,7 +17,7 @@
     text-transform: capitalize;
 }
 
-.comapny-holder {
+.clients {
     width: 915px;
     height: 86px;
     border-radius: 8px;
@@ -29,10 +29,19 @@
     padding: 19px 24px;
 }
 
-.companyIcon {
-    width: 130px;
+.comapny-holder-sm {
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
+.comapny-holder-md {
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media screen and (max-width: 400px) {}
 
@@ -41,24 +50,36 @@
 @media screen and (min-width: 721px) and (max-width: 1280px) {}
 
 @media screen and (min-width: 121px) and (max-width: 730px) {
-    .comapny-holder {
+    .clients {
         width: 90vw;
         padding: 19px 16px;
 
     }
 
-    .companyIcon {
-        width: 20%;
+    .comapny-holder-sm {
+        display: flex !important;
+    }
+
+    .comapny-holder-xl {
+        display: none !important;
     }
 }
 
 @media screen and (min-width: 730px) and (max-width: 980px) {
-    .comapny-holder {
+    .clients {
         width: 700px;
     }
 
-    .companyIcon {
-        width: 90px;
+    .comapny-holder-md {
+        display: flex !important;
+    }
+
+    .comapny-holder-sm {
+        display: none !important;
+    }
+
+    .comapny-holder-xl {
+        display: none !important;
     }
 }
 

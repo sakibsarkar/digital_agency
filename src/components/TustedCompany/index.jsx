@@ -9,11 +9,28 @@ const TrustedCompanys = () => {
     return (
         <div className="trust-holder">
             <p>Trusted by 4,000+ companies</p>
-            <div className="comapny-holder">
-                {companys.map((Comp, i) => <p key={i + "0"} className="companyIcon">
-                    <Comp />
-                </p>)}
+
+            <div className="comapny-holder-xl clients">
+                <Spotify w={140} />
+                <Slack w={121} />
+                <DropBox w={169} />
+                <Zoom w={98} />
             </div>
+
+            <div className="comapny-holder-md clients">
+                <Spotify w={100} />
+                <Slack w={75} />
+                <DropBox w={100} />
+                <Zoom w={100} />
+            </div>
+
+            <div className="comapny-holder-sm clients">
+                <Spotify w={70} />
+                <Slack w={60} />
+                <DropBox w={80} />
+                <Zoom w={49} />
+            </div>
+
         </div>
     );
 };

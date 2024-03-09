@@ -1,4 +1,7 @@
 import "./globals.css";
+import Circle from "@/components/circle-gradient";
+import Footer from "@/components/shared/Footer/Footer";
+import Navbar from "@/components/shared/Navbar/Navbar";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,7 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+            <div className="rootWrapper">
+                <div className="top-aura">
+                    <Circle />
+                </div>
+                {children}
+            </div>
+            <Footer />
+        </body>
     </html>
   );
 }

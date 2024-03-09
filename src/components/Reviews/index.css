@@ -23,7 +23,7 @@
 .reviewsContainer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 15px;
     width: 100%;
     margin: auto;
@@ -33,7 +33,6 @@
 .reviewBox {
     width: 345px;
     height: 345px;
-    margin: 38px 0 0 0;
     box-sizing: border-box;
     padding: 32px;
     border-radius: 20px;
@@ -54,6 +53,7 @@
 
 @media screen and (max-width: 500px) {
     .reviewWrapper h1 {
-        font-size: 40px;
+        font-size: 31px;
+        width: 300px;
     }
 }
