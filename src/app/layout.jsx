@@ -16,14 +16,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-            <div className="rootWrapper">
-                <div className="top-aura">
-                    <Circle />
-                </div>
-                {children}
+        <main>
+          <div className="rootWrapper">
+            <div className="top-aura">
+              <Circle />
             </div>
-            <Footer />
-        </body>
+            {children}
+          </div>
+        </main>
+        <Footer />
+      </body>
     </html>
   );
 }
