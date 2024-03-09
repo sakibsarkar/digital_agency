@@ -1,6 +1,6 @@
 footer {
     width: 100vw;
-    min-height: 430px;
+    min-height: 443px;
     background: #F6F6F6;
     display: flex;
     justify-content: flex-end;
@@ -15,10 +15,12 @@ footer {
 .fooWrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 190px);
-    justify-content: space-evenly;
-    gap: 20px 0;
+    grid-template-columns: 367.68px 319px 263px 123.19px;
+    justify-content: flex-start;
+    width: 1093px;
     align-items: flex-start;
+    position: relative;
+    top: -22px;
 }
 
 .fooLogo {
@@ -36,12 +38,19 @@ footer {
 }
 
 .fooLogo p {
-    width: 189px;
+    width: 189.291px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
 }
 
 footer>p {
-    margin: 0 0 15px 0;
+    position: relative;
+    bottom: 16px;
     text-align: center;
+    color: #272D38;
+    ;
+    font-weight: 300;
 }
 
 

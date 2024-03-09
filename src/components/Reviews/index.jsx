@@ -7,7 +7,7 @@ const Reviews = () => {
     return (
         <div className="reviewWrapper">
 
-            <div>
+            <div className="reviewTitle">
                 <p>TESTIMONIALS</p>
                 <h1>Read What Other have to Say</h1>
             </div>
@@ -16,8 +16,11 @@ const Reviews = () => {
                 {
                     user_reviews?.map((review, i) => <div key={i + "x"} className="reviewBox">
 
-                        <Image alt="user" src={review.avater} width={"130px"} height={"130px"} />
-                        <h3>{review.name}</h3>
+                        <div className="speaker">
+                            <Image alt="user" src={review.avater} width={129} height={130} />
+                            <h3>{review.name}</h3>
+                        </div>
+
                         <p>{review.description}</p>
 
                     </div>)

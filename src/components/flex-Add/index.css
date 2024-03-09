@@ -9,15 +9,14 @@
     color: #272D38;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 26px;
-    margin: 8px 0 0 0;
+    gap: 25.59px;
+    height: 263px;
 }
 
 .hero-content h1 {
     width: 435.687px;
-    flex-shrink: 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 100%;
@@ -32,8 +31,9 @@
 }
 
 .hero-content .arrow {
-    margin: 20px 0 0 0;
     cursor: pointer;
+    position: relative;
+    bottom: -8px;
 }
 
 

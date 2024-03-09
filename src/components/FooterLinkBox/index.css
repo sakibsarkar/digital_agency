@@ -27,6 +27,7 @@
 
 .footerRoutes a {
     font-size: 16px;
+    line-height: 100%;
     font-weight: 300;
     color: #272D38;
     text-transform: capitalize;

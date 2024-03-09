@@ -1,6 +1,8 @@
 .supportBox {
     width: 1065px;
     height: 450.434px;
+    box-sizing: border-box;
+    padding: 0 89px 0 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,15 +17,25 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 17px;
-    width: fit-content;
+    gap: 32.03px;
+    width: 361px;
     color: #272D38;
+}
+
+.suportDivider {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16.02px;
 }
 
 .supportContent h1 {
     font-size: 48px;
     font-weight: 700;
+    height: 102;
     width: 361px;
+    line-height: 100%;
 }
 
 .supportContent p {
@@ -33,7 +45,7 @@
 }
 
 .supportContent button {
-    margin: 15px 0 0 0;
+    margin: 0 !important;
 }
 
 
