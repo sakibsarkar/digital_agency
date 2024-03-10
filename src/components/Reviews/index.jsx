@@ -5,7 +5,7 @@ import { reviews } from "@/utils/mockData/review";
 const Reviews = () => {
     const user_reviews = reviews()
     return (
-        <div className="reviewWrapper">
+        <section className="reviewWrapper">
 
             <div className="reviewTitle">
                 <p>TESTIMONIALS</p>
@@ -27,7 +27,7 @@ const Reviews = () => {
                 }
             </div>
 
-        </div>
+        </section>
     );
 };
 

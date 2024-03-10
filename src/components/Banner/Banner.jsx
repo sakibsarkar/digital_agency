@@ -6,7 +6,7 @@ import teamImg from "../../../public/images/business-people-discussing-business-
 
 const Banner = () => {
     return (
-        <div className="banner-wrapper">
+        <section className="banner-wrapper">
 
             <div className="contentWrapper">
                 <div className="banner-left">
@@ -21,7 +21,7 @@ const Banner = () => {
             </div>
             <TrustedCompanys />
 
-        </div>
+        </section>
     );
 };
 

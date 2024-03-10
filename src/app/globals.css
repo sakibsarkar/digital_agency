@@ -69,3 +69,10 @@ body {
         margin: 0 auto;
     }
 }
+
+/* scrol header */
+@media screen and (max-width: 600px) {
+    .scroll {
+        padding: 0 !important;
+    }
+}

@@ -5,7 +5,7 @@ import support from "../../../public/images/customer-support.png";
 
 const Support = () => {
     return (
-        <div className="supportBox">
+        <section className="supportBox">
             <Image alt="support" src={support} height={"450px"} width={"450px"} />
 
             <div className="supportContent">
@@ -15,7 +15,7 @@ const Support = () => {
                 </div>
                 <ButtonPrimary>Contact Us</ButtonPrimary>
             </div>
-        </div>
+        </section>
     );
 };
 

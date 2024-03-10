@@ -18,7 +18,7 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <div className="heros">
+            <section className="heros">
                 <div className="aura-gradient">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 547 1291" fill="none">
                         <g filter="url(#filter0_f_55_12)">
@@ -36,7 +36,7 @@ const Home = () => {
 
                 <FlexContent heading={heading1} content={content1} img={img1} />
                 <FlexContent heading={heading2} content={content2} img={img2} direction={"row-reverse"} />
-            </div>
+            </section>
 
             <Reviews />
 
