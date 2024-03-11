@@ -50,7 +50,7 @@ const Navbar = () => {
                         </div>
 
                         <li>
-                            <Link href={"/testimonials"} className="txtPrimary">contact</Link >
+                            <Link href={"/contact"} className="txtPrimary">contact</Link >
                         </li>
                     </ul>
 
