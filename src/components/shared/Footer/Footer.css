@@ -20,7 +20,8 @@ footer {
     width: 1093px;
     align-items: flex-start;
     position: relative;
-    top: -22px;
+    top: -20px;
+    left: 2px;
 }
 
 .fooLogo {
@@ -40,17 +41,19 @@ footer {
 .fooLogo p {
     width: 189.291px;
     font-size: 16px;
+    text-transform: capitalize;
     font-weight: 300;
     line-height: 150%;
 }
 
 footer>p {
     position: relative;
-    bottom: 16px;
+    bottom: 22px;
     text-align: center;
     color: #272D38;
-    ;
     font-weight: 300;
+    left: -14px;
+
 }
 
 

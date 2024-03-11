@@ -33,19 +33,26 @@
 .supportContent h1 {
     font-size: 48px;
     font-weight: 700;
-    height: 102;
     width: 361px;
     line-height: 100%;
+    position: relative;
+    top: -10px;
+
 }
 
 .supportContent p {
     font-size: 16px;
+    font-weight: 400;
     line-height: 27.5px;
-    width: 304px;
+    width: 360px;
+    font-style: normal;
+    height: 52.05px;
 }
 
 .supportContent button {
     margin: 0 !important;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 

@@ -12,9 +12,9 @@ export const navLinks = () => {
             text: "testimonials",
             href: "/testimonials"
         },
-        {
-            text: "contact",
-            href: "/contact"
-        },
+        // {
+        //     text: "contact",
+        //     href: "/contact"
+        // },
     ]
 }

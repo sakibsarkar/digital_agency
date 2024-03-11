@@ -63,6 +63,7 @@
     width: 281px;
     position: relative;
     text-transform: capitalize;
+    top: -3px;
 }
 
 .reviewBox h3 {

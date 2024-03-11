@@ -41,11 +41,17 @@ const Navbar = () => {
 
 
                     <ul>
-                        {
-                            links?.map((link, i) => <li key={i}>
-                                <Link href={link.text} className="txtPrimary">{link.text}</Link>
-                            </li>)
-                        }
+                        <div>
+                            {
+                                links?.map((link, i) => <li key={i}>
+                                    <Link href={link.href} className="txtPrimary">{link.text}</Link>
+                                </li>)
+                            }
+                        </div>
+
+                        <li>
+                            <Link href={"/testimonials"} className="txtPrimary">contact</Link >
+                        </li>
                     </ul>
 
                 </nav>
