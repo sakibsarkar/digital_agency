@@ -76,6 +76,11 @@
     }
 
 
+    .suportDivider {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
     .supportContent {
         justify-content: center;
@@ -86,6 +91,7 @@
     .supportContent h1 {
         font-size: 30px;
         width: 223px;
+        text-align: center;
     }
 }
 

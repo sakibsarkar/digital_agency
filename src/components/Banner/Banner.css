@@ -26,7 +26,6 @@
 }
 
 .banner-left h1 {
-    margin: 10px 0 0 0;
     font-size: 64px;
     font-weight: 700;
     line-height: 100%;
@@ -40,6 +39,13 @@
     font-size: 18px;
     line-height: 27.5px;
     text-transform: capitalize;
+}
+
+.banner-left button {
+    margin: 0 !important;
+    position: relative;
+    top: 15px;
+
 }
 
 
