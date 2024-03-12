@@ -77,4 +77,9 @@
         font-size: 31px;
         width: 300px;
     }
+
+    .reviewWrapper {
+        margin: 0 0 70px 0;
+
+    }
 }

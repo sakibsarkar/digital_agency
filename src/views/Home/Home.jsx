@@ -16,7 +16,7 @@ const Home = () => {
 
 
     return (
-        <div>
+        <>
             <Banner />
             <section className="heros">
                 <div className="aura-gradient">
@@ -42,7 +42,7 @@ const Home = () => {
 
             <Support />
 
-        </div>
+        </>
     );
 };
 

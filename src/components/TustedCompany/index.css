@@ -43,13 +43,23 @@
     align-items: center;
 }
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 375px) {
+    .clients {
+        width: 95vw;
+        padding: 19px 5px;
 
-@media screen and (min-width: 401px) and (max-width: 720px) {}
+    }
 
-@media screen and (min-width: 721px) and (max-width: 1280px) {}
+    .comapny-holder-sm {
+        display: flex !important;
+    }
 
-@media screen and (min-width: 121px) and (max-width: 730px) {
+    .comapny-holder-xl {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 730px) {
     .clients {
         width: 90vw;
         padding: 19px 16px;
