@@ -9,26 +9,29 @@ const Navbar = () => {
     const links = navLinks()
     const [scrolled, setScrolled] = useState(false)
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const offset = window.pageYOffset; // Use window.pageYOffset instead of window.scrollY
-            if (offset > 20) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
-        };
 
-        if (typeof window !== 'undefined') {
-            window.addEventListener('scroll', handleScroll);
-        }
+    // ****------- scroll sticky navbar --------****
 
-        return () => {
-            if (typeof window !== 'undefined') {
-                window.removeEventListener('scroll', handleScroll);
-            }
-        };
-    }, []);
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const offset = window.pageYOffset;
+    //         if (offset > 20) {
+    //             setScrolled(true);
+    //         } else {
+    //             setScrolled(false);
+    //         }
+    //     };
+
+    //     if (typeof window !== 'undefined') {
+    //         window.addEventListener('scroll', handleScroll);
+    //     }
+
+    //     return () => {
+    //         if (typeof window !== 'undefined') {
+    //             window.removeEventListener('scroll', handleScroll);
+    //         }
+    //     };
+    // }, []);
 
 
     return (
