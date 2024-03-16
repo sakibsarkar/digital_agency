@@ -21,6 +21,7 @@ footer {
     align-items: flex-start;
     position: relative;
     left: 2px;
+    top: -2px;
 }
 
 .fooLogo {
@@ -53,8 +54,7 @@ footer>p {
     font-weight: 300;
     left: -14px;
     bottom: 2px;
-    top: -2px;
-    
+
 
 }
 
